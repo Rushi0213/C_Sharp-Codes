@@ -1,25 +1,25 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 
-//    class ifElsestmt
-//    {
+   class ifElsestmt
+   {
 
-//  public static void Main(string[] args)
-//    {
+ public static void Main(string[] args)
+   {
 
-//        int age = int.Parse(Console.ReadLine());
-//        if(age>18)
-//        {
-//            Console.WriteLine("you are eligible for voting");
+       int age = int.Parse(Console.ReadLine());
+       if(age>18)
+       {
+           Console.WriteLine("you are eligible for voting");
 
-//        }
-//        else
-//        {
-//            Console.WriteLine("you are not eligible for voting");
-//        }
-//    }
+       }
+       else
+       {
+           Console.WriteLine("you are not eligible for voting");
+       }
+   }
 
-//}
+}
 
